@@ -1,0 +1,78 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "popcorn-official/popcorn-desktop", "https://github.com/popcorn-official/popcorn-desktop.git"
+tap "railwayapp/railway"
+# Create and view interactive cheat sheets for *nix commands
+brew "cheat"
+# Console Matrix
+brew "cmatrix"
+# Configurable talking characters in ASCII art
+brew "cowsay"
+# Static analysis of C and C++ code
+brew "cppcheck"
+# Modern replacement for 'ls'
+brew "exa"
+# Banner-like program prints strings as ASCII art
+brew "figlet"
+# User-friendly command-line shell for UNIX-like operating systems
+brew "fish"
+# Infamous electronic fortune-cookie generator
+brew "fortune"
+# GitHub command-line tool
+brew "gh"
+# Remote repository management made easy
+brew "ghq"
+# Distributed revision control system
+brew "git"
+# Directory/file & DNS busting tool written in Go
+brew "gobuster"
+# Improved top (interactive process viewer)
+brew "htop"
+# Multiple Repository management tool
+brew "mr"
+# Ambitious Vim-fork focused on extensibility and agility
+brew "neovim"
+# Port scanning utility for large networks
+brew "nmap"
+# Simplistic interactive filtering tool
+brew "peco"
+# Python version management
+brew "pyenv"
+# Tool Command Language
+brew "tcl-tk"
+# Software environment for statistical computing
+brew "r"
+# RC file (dotfile) management
+brew "rcm"
+# Cross-shell prompt for astronauts
+brew "starship"
+# Generate clients, server stubs, and docs from an OpenAPI spec
+brew "swagger-codegen"
+# Terminal multiplexer
+brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
+# Pager/text based browser
+brew "w3m"
+# Internet file retriever
+brew "wget"
+# Everything you need to get started with Heroku
+brew "heroku/brew/heroku"
+# Develop and deploy code with zero configuration
+brew "railwayapp/railway/railway"
+cask "font-hack-nerd-font"
+# Typeface made for developers
+cask "font-jetbrains-mono"
+# Free and open-source image editor
+cask "gimp"
+# GraphQL IDE for better development workflows
+cask "graphql-playground"
+# Re-mounts write-protected NTFS volumes
+cask "mounty"
+# BitTorrent client that includes an integrated media player
+cask "popcorn-time"
+# VPN client focusing on security
+cask "protonvpn"

@@ -1,0 +1,5 @@
+**/*.swp
+**/*.swp.*
+**/fish_variables
+**/*tmp
+**/*tmp*

@@ -1,0 +1,4 @@
+scripts-prepend-node-path=auto
+init.author.email=gabrielobi.of@gmail.com
+init.author.name=Obi Fortune
+init.author.license=MIT
