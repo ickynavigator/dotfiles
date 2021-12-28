@@ -19,6 +19,7 @@ if type -q git
 	abbr gs  "git status"
 	abbr ga  "git add"
 	abbr gaa "git add --all"
+	abbr gbd 'git branch --merged | egrep -v "(^\*|main|dev)" | xargs git branch -d'
 	abbr gc  "git commit --allow-empty"
 	abbr gco "git checkout"
 	abbr gp  "git push -u origin --all"
