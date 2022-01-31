@@ -46,5 +46,5 @@ function fish_greeting
     # figlet "ickynavigator"
     # cow_fortune
     printf (set_color FF4500)"Welcome %s \nThis terminal session is powered by %s\nCurrent Location : %s\n" $USER $chosen_msg $PWD
-    neofetch
+    # neofetch
 end

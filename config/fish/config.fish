@@ -1,7 +1,7 @@
 alias pip=pip3
 # alias phpmamp=/Applications/MAMP/bin/php/php7.4.12/bin/php
 # fish_add_path /Applications/MAMP/bin/php/php7.4.12/bin
-fish_add_path ~/Library/Python/3.8/bin
+# fish_add_path ~/Library/Python/3.8/bin
 fish_add_path /usr/libexec/java_home -v 1.8
 
 ## abbr
@@ -45,3 +45,6 @@ alias yat "yarn add typescript @types/node @types/react @types/react-dom @types/
 alias nit "npm install --save typescript @types/node @types/react @types/react-dom @types/jest"
 
 #starship init fish | source
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
