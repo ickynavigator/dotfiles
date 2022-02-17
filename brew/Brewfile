@@ -3,16 +3,23 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/cask-fonts"
 tap "homebrew/core"
+tap "homebrew/services"
 tap "popcorn-official/popcorn-desktop", "https://github.com/popcorn-official/popcorn-desktop.git"
 tap "railwayapp/railway"
+# ARP scanning and fingerprinting tool
+brew "arp-scan"
 # Create and view interactive cheat sheets for *nix commands
 brew "cheat"
+# Enables you to reproduce the CircleCI environment locally
+brew "circleci"
 # Console Matrix
 brew "cmatrix"
 # Configurable talking characters in ASCII art
 brew "cowsay"
 # Static analysis of C and C++ code
 brew "cppcheck"
+# Lightweight DNS forwarder and DHCP server
+brew "dnsmasq", restart_service: true
 # Modern replacement for 'ls'
 brew "exa"
 # Banner-like program prints strings as ASCII art
@@ -27,6 +34,8 @@ brew "gh"
 brew "ghq"
 # Distributed revision control system
 brew "git"
+# Tcl/Tk UI for the git revision control system
+brew "git-gui"
 # Directory/file & DNS busting tool written in Go
 brew "gobuster"
 # Improved top (interactive process viewer)
@@ -41,8 +50,6 @@ brew "nmap"
 brew "peco"
 # Python version management
 brew "pyenv"
-# Tool Command Language
-brew "tcl-tk"
 # Software environment for statistical computing
 brew "r"
 # RC file (dotfile) management
@@ -59,13 +66,21 @@ brew "tree"
 brew "w3m"
 # Internet file retriever
 brew "wget"
+# Python bindings for wxWidgets
+brew "wxpython"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # Develop and deploy code with zero configuration
 brew "railwayapp/railway/railway"
+# App to build and share containerized applications and microservices
+cask "docker"
+# Draw.io is free online diagram software
+cask "drawio"
 cask "font-hack-nerd-font"
 # Typeface made for developers
 cask "font-jetbrains-mono"
+# Fabric agent with endpoint protection and cloud sandbox
+cask "forticlient"
 # Free and open-source image editor
 cask "gimp"
 # GraphQL IDE for better development workflows
